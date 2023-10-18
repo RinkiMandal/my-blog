@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import MyContext from './myContext';
 import { collection, deleteDoc, doc, onSnapshot, orderBy, query } from 'firebase/firestore';
-import { fireDB } from '../../firebase/FirebaseConfig';
+// import { fireDB } from '../../firebase/FirebaseConfig';
+import { fireDB } from '../../firebase/FireBaseConfig'
 import toast from 'react-hot-toast';
 
 function MyState(props) {
